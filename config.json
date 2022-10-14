@@ -1,0 +1,30 @@
+{
+    "serviceport": 8081,
+    "admindb": {
+        "host": "localhost",
+        "port": 3310,
+        "user": "dbappuser",
+        "password": "Rigity@2022",
+        "databasename": "rbtech_admindb"
+    },
+    "log": {
+        "name": "rbPOSService",
+        "path": ".\\Logs",
+        "maxsize": "10m",
+        "maxfiles": "14d"
+    },
+    "host": "rigity.com",
+    "mailport": 465,
+    "secure": true,
+    "secureConnection": false,
+    "auth": {
+        "user": "dbuser@rigity.com",
+        "pass": "Ctint@2013" 
+      },
+    "from": "dbuser@rigity.com",
+    "tls": {
+        "ciphers":"SSLv3"
+    },
+    "requireTLS":true,
+    "debug": true
+}
